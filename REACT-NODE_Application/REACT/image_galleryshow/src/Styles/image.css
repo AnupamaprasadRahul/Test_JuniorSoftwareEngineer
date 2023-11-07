@@ -1,0 +1,30 @@
+.Image_Name{
+    
+    font-size: 33px;
+    font-weight: 600;
+    color: red;
+}
+h3{
+    text-align: center;
+    color:darkgreen;
+
+}
+#para{
+    color: purple;
+    padding: 169px 97px 88px 61px;
+    font-size: 20px;
+}
+.gallery_button{
+    position: absolute;
+    left: 57em;
+    top: 25em;
+    width: 240px;
+    height: 40px;
+    opacity: 0.8;
+    background-color:lightpink;
+    color: #1a4fc1;}
+    .Image_descript{
+        font-size: 20px;
+        padding-top: 35px;
+        color:rgb(17, 18, 20)
+    }

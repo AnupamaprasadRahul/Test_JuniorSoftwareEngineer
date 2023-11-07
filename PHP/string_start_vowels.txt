@@ -1,0 +1,36 @@
+write a php function that takes an array of strings as input and returns a new array containing only the strings that start with a vowel. Ignore Case Sensitivity
+  *------------------------------------------------------------------------------------------------------------------------------------*
+
+
+
+<?php
+ function vowel($array)
+{
+    $results=array();
+
+    foreach($array as $element)
+    {
+        $firstLetter=substr($element,0,1);
+        $vowels=array('a','e','i','o','u');
+
+        if(in_array(strtolower($firstLetter),$vowels))
+        {
+            $results[]=$element;
+        }
+    }
+        return $results;
+}
+
+   $list=array('pineapples','Apple','Banana','grapes','umbrella','pear','owl','elephant','icecream');
+   $answer=vowel($list);
+
+   print_r ($answer);
+?>
+
+
+DESCRIPTION
+***********
+
+-> created a function vowel() and passes the arraylist.
+->for loop an array, i used foreach method, which points to each element in the array.
+->I used substr method and give the value as 0,1, to get the first character of the element. and strtolower()method used to change the uppercase letter to lowercase.Then it is compared with the vowel array by using in_array()method. If the first character equals any vowels, then the string is returned to a new array. If no Strings starts with a vowel, will return an empty array.

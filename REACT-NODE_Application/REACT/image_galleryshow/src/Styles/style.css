@@ -1,0 +1,22 @@
+.col{
+    height: 234px;
+    
+    margin-left: 29px;
+    
+    border: 1px solid green;
+    border-radius: 7%;
+}
+.container-fluid{
+    position:relative;
+    padding-top: 108px;
+   width:645px;
+}
+.ROW{
+    padding-top: 30px;
+}
+.image{
+    width: 175px;
+    height: 233px;
+}
+
+
